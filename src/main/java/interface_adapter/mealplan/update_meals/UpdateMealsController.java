@@ -1,6 +1,5 @@
 package interface_adapter.mealplan.update_meals;
 
-import entity.User;
 import use_case.mealplan.update_meals.UpdateMealsInputBoundary;
 
 public class UpdateMealsController {

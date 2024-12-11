@@ -1,13 +1,8 @@
 package use_case.mealplan.update_meals;
 
 import entity.CommonUser;
-import entity.User;
 import org.junit.Test;
 import use_case.mealplan.generate_mealplan.WeeklyMealRecipeDto;
-import use_case.mealplan.update_meals.UpdateMealsDataAccessInterface;
-import use_case.mealplan.update_meals.UpdateMealsInteractor;
-import use_case.mealplan.update_meals.UpdateMealsOutputBoundary;
-import use_case.mealplan.update_meals.UpdateMealsOutputData;
 
 import java.time.LocalDate;
 import java.util.HashMap;

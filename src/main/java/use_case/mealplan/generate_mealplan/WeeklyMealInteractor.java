@@ -1,7 +1,6 @@
 package use_case.mealplan.generate_mealplan;
 
 import entity.Recipe;
-import entity.User;
 import org.json.JSONException;
 import use_case.set_meals.StoreMealInputBoundary;
 import use_case.set_meals.StoreMealInputData;

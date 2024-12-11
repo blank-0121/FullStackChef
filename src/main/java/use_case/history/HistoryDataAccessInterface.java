@@ -1,7 +1,5 @@
 package use_case.history;
 
-import entity.User;
-
 import java.util.List;
 
 public interface HistoryDataAccessInterface {

@@ -4,7 +4,6 @@ import app.SessionUser;
 import entity.CommonRecipe;
 import entity.CommonUser;
 import entity.Recipe;
-import entity.User;
 import org.json.JSONException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package data_access;
+/*package data_access;
 
 import app.Constants;
 import entity.DietaryRestriction;
@@ -11,16 +11,16 @@ import org.json.JSONObject;
 import java.util.List;
 import java.util.Map;
 
-/**
+*//**
  * Converts a User object to a JSON object.
- */
+ *//*
 public class UserToJSON {
-    /**
+    *//**
      * Converts a User object to a JSON object.
      * @param user The user to convert.
      * @return The JSON object.
      * @throws ProfileException if the user cannot be converted.
-     */
+     *//*
     public static JSONObject userToJSON(User user) throws ProfileException {
         final JSONObject body = new JSONObject();
         try {
@@ -58,9 +58,9 @@ public class UserToJSON {
 
             // create the dietary restrictions to add to info
             final JSONArray dietaryRestrictions = new JSONArray();
-            DietaryRestriction userDietaryRestrictions = user.getDietaryRestrictions();
+            DietaryRestriction userDietaryRestrictions = user.getDietaryRestriction();
             if (userDietaryRestrictions != null) {
-                for (String restriction : userDietaryRestrictions.getDiets()) {
+                for (String restriction : userDietaryRestrictions.getDietaryRestriction()) {
                     dietaryRestrictions.put(restriction);
                 }
             }
@@ -73,4 +73,4 @@ public class UserToJSON {
             throw new ProfileException("Failed to convert user to JSON.");
         }
     }
-}
+}*/

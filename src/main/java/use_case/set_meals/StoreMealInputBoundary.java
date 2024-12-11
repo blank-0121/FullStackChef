@@ -1,7 +1,5 @@
 package use_case.set_meals;
 
-import entity.User;
-
 /**
  * The input boundary for the Store Meal Use Case.
  */

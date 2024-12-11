@@ -2,7 +2,6 @@ package use_case.display_favorite;
 
 import app.SessionUser;
 import entity.Recipe;
-import entity.User;
 import org.json.JSONException;
 
 import java.io.IOException;

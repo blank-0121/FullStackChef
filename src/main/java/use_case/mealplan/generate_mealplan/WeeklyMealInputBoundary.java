@@ -1,8 +1,5 @@
 package use_case.mealplan.generate_mealplan;
 
-import entity.User;
-import entity.WeeklyMeal;
-
 /**
  * Input boundary for the Generate Meal Plan Use Case.
  * This interface is implemented by the interactor to process input data.

@@ -24,6 +24,12 @@ public interface Ingredient {
     void setAmount(float amount);
 
     /**
+     * Returns the ID of this ingredient.
+     * @return the ID of this ingredient
+     */
+    int getID();
+
+    /**
      * Returns the unit of this ingredient.
      * @return the unit of this ingredient
      */
@@ -35,9 +41,4 @@ public interface Ingredient {
      */
     void setUnit(String unit);
 
-    /**
-     * Returns the ID of this ingredient.
-     * @return the ID of this ingredient
-     */
-    int getID();
 }

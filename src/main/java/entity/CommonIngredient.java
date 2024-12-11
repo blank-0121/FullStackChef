@@ -8,7 +8,6 @@ import org.jetbrains.annotations.Nullable;
 public class CommonIngredient implements Ingredient {
     private String name;
     private float amount;
-    @Nullable
     private Integer id;
     private String unit;
 
@@ -26,16 +25,6 @@ public class CommonIngredient implements Ingredient {
     }
 
     @Override
-    public void setAmount(float amount) {
-        this.amount = amount;
-    }
-
-    @Override
-    public void setUnit(String unit) {
-        this.unit = unit;
-    }
-
-    @Override
     public String getName() {
         return name;
     }
@@ -46,6 +35,11 @@ public class CommonIngredient implements Ingredient {
     }
 
     @Override
+    public void setAmount(float amount) {
+        this.amount = amount;
+    }
+
+    @Override
     public int getID() {
         return id;
     }
@@ -53,6 +47,11 @@ public class CommonIngredient implements Ingredient {
     @Override
     public String getUnit() {
         return unit;
+    }
+
+    @Override
+    public void setUnit(String unit) {
+        this.unit = unit;
     }
 
     @Override

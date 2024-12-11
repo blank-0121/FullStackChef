@@ -14,8 +14,6 @@ public class ViewModel<T> {
 
     private final String viewName;
 
-    private Object context;
-
     private final PropertyChangeSupport support = new PropertyChangeSupport(this);
 
     private T state;
@@ -34,14 +32,6 @@ public class ViewModel<T> {
 
     public void setState(T state) {
         this.state = state;
-    }
-
-    public Object getContext() {
-        return this.context;
-    }
-
-    public void setContext(Object context) {
-        this.context = context;
     }
 
     /**
@@ -71,24 +61,5 @@ public class ViewModel<T> {
         this.support.addPropertyChangeListener(listener);
     }
 
-    /**
-     * Removes a PropertyChangeListener from this ViewModel.
-     * @param listener The PropertyChangeListener to be removed
-     */
-
-    /* NOTE:
-    [Optional, depending on implementation]
-    If views or components are dynamically created and destroyed
-    (i.e. the view can be closed or replaced)
-    (e.g., navigating between different screens),
-    remove listeners ensures prevent memory leaks and
-    no unnecessary updates are processed.
-
-    If the view displaying the recipes is always active and never destroyed,
-    it is unnecessary.
-     */
-    public void removePropertyChangeListener(PropertyChangeListener listener) {
-        this.support.removePropertyChangeListener(listener);
-    }
 
 }

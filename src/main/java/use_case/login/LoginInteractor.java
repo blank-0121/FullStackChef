@@ -1,7 +1,6 @@
 package use_case.login;
 
 import app.SessionUser;
-import entity.User;
 
 /**
  * The Login Interactor.

@@ -3,7 +3,6 @@ package data_access;
 import app.Constants;
 import entity.CommonRecipe;
 import entity.Recipe;
-import entity.User;
 import okhttp3.*;
 import org.json.JSONArray;
 import org.json.JSONException;

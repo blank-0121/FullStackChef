@@ -1,6 +1,5 @@
 package data_access;
 
-import entity.CommonIngredientWithConvertedUnits;
 import entity.Ingredient;
 import use_case.grocery_list.GroceryListDataAccessInterface;
 

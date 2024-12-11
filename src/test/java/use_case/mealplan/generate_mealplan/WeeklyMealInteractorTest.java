@@ -3,7 +3,6 @@ package use_case.mealplan.generate_mealplan;
 import entity.CommonRecipe;
 import entity.CommonUser;
 import entity.Recipe;
-import entity.User;
 import interface_adapter.ViewManagerModel;
 import interface_adapter.mealplan.generate_mealplan.WeeklyMealPresenter;
 import interface_adapter.mealplan.generate_mealplan.WeeklyMealViewModel;

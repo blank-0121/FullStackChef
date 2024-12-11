@@ -1,13 +1,10 @@
 package use_case.mealplan.update_meals;
 
-import entity.User;
 import use_case.mealplan.generate_mealplan.WeeklyMealRecipeDto;
 
-import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Locale;
 import java.util.Map;
 
 public class UpdateMealsInteractor implements UpdateMealsInputBoundary {

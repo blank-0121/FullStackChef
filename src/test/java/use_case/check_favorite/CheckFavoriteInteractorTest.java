@@ -2,7 +2,6 @@ package use_case.check_favorite;
 
 import app.SessionUser;
 import entity.CommonUser;
-import entity.User;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

@@ -3,6 +3,9 @@ package entity;
 import java.time.LocalDate;
 import java.util.List;
 
+/**
+ * Represents a weekly meal plan.
+ */
 public class CommonWeeklyMeal implements WeeklyMeal {
     private final List<Recipe> recipes;
     private final LocalDate dates;
@@ -19,4 +22,5 @@ public class CommonWeeklyMeal implements WeeklyMeal {
     public LocalDate getDate() {
         return dates;
     }
+
 }

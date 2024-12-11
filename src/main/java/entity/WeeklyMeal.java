@@ -18,6 +18,7 @@ public interface WeeklyMeal {
      * @return the date associated with this meal plan
      */
     LocalDate getDate();
+
 }
 
 

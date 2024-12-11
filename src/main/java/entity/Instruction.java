@@ -36,20 +36,6 @@ public interface Instruction {
     void setIngredients(List<Ingredient> ingredients);
 
     /**
-     * Gets the equipments used in this instruction.
-     *
-     * @return the equipments
-     */
-    List<Equipment> getEquipments();
-
-    /**
-     * Sets the equipments used in this instruction.
-     *
-     * @param equipments the equipments
-     */
-    void setEquipments(List<Equipment> equipments);
-
-    /**
      * Gets the description of the instruction.
      *
      * @return the description
@@ -62,4 +48,5 @@ public interface Instruction {
      * @param description the description
      */
     void setDescription(String description);
+
 }

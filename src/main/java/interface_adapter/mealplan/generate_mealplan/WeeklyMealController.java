@@ -1,7 +1,6 @@
 package interface_adapter.mealplan.generate_mealplan;
 
 import app.SessionUser;
-import entity.User;
 import use_case.mealplan.generate_mealplan.WeeklyMealInputBoundary;
 import use_case.mealplan.generate_mealplan.WeeklyMealInputData;
 

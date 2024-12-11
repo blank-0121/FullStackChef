@@ -1,3 +1,4 @@
+/*
 package view;
 
 import java.awt.Component;
@@ -19,9 +20,11 @@ import interface_adapter.login.LoginController;
 import interface_adapter.login.LoginState;
 import interface_adapter.login.LoginViewModel;
 
+*/
 /**
  * The View for when the user is logging into the program.
- */
+ *//*
+
 public class LoginView extends JPanel implements ActionListener, PropertyChangeListener {
 
     private final String viewName = "logInView";
@@ -130,10 +133,12 @@ public class LoginView extends JPanel implements ActionListener, PropertyChangeL
         this.add(buttons);
     }
 
-    /**
+    */
+/**
      * React to a button click that results in evt.
      * @param evt the ActionEvent to react to
-     */
+     *//*
+
     public void actionPerformed(ActionEvent evt) {
         System.out.println("Click " + evt.getActionCommand());
     }
@@ -158,3 +163,4 @@ public class LoginView extends JPanel implements ActionListener, PropertyChangeL
         this.loginController = loginController;
     }
 }
+*/

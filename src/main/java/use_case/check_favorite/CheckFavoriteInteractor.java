@@ -1,7 +1,6 @@
 package use_case.check_favorite;
 
 import app.SessionUser;
-import entity.User;
 
 import java.util.List;
 

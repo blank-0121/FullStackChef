@@ -1,7 +1,6 @@
 package use_case.change_password;
 
 import entity.CommonUser;
-import entity.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -11,5 +11,6 @@ public interface DietaryRestriction {
      *
      * @return the list of diets
      */
-    List<String> getDiets();
+    List<String> getDietaryRestrictions();
+
 }

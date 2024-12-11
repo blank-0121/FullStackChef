@@ -9,13 +9,11 @@ import java.util.List;
 public class CommonInstruction implements Instruction {
     private int number;
     private List<Ingredient> ingredients;
-    private List<Equipment> equipments;
     private String description;
 
-    public CommonInstruction(int number, List<Ingredient> ingredients, List<Equipment> equipments, String description) {
+    public CommonInstruction(int number, List<Ingredient> ingredients, String description) {
         this.number = number;
         this.ingredients = ingredients;
-        this.equipments = equipments;
         this.description = description;
     }
 
@@ -40,16 +38,6 @@ public class CommonInstruction implements Instruction {
     }
 
     @Override
-    public List<Equipment> getEquipments() {
-        return equipments;
-    }
-
-    @Override
-    public void setEquipments(List<Equipment> equipments) {
-        this.equipments = equipments;
-    }
-
-    @Override
     public String getDescription() {
         return description;
     }
@@ -60,5 +48,8 @@ public class CommonInstruction implements Instruction {
     }
 
     @Override
-    public String toString() { return "Step " + getNumber() + ": " + getDescription(); }
+    public String toString() {
+        return "Step " + getNumber() + ": " + getDescription();
+    }
+
 }

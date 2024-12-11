@@ -2,7 +2,6 @@ package use_case.set_meals;
 
 import app.Constants;
 import data_access.ProfileException;
-import entity.User;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

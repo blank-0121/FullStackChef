@@ -2,7 +2,6 @@ package use_case.display_recipe;
 
 import entity.Ingredient;
 import entity.Instruction;
-import entity.NutritionalInfo;
 
 import java.util.List;
 

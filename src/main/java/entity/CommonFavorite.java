@@ -5,7 +5,6 @@ import java.util.List;
 /**
  * The representation of a favorite recipe in our program.
  */
-
 public class CommonFavorite implements Favorite {
     private final List<Integer> favoriteRecipe;
 

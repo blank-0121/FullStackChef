@@ -2,7 +2,6 @@ package use_case.favorite;
 
 import app.SessionUser;
 import entity.CommonUser;
-import entity.User;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

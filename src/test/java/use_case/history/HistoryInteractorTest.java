@@ -2,7 +2,6 @@ package use_case.history;
 
 import app.SessionUser;
 import entity.CommonUser;
-import entity.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

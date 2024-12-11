@@ -1,7 +1,5 @@
 package use_case.check_favorite;
 
-import entity.User;
-
 import java.util.List;
 
 /**

@@ -2,7 +2,6 @@ package use_case.set_meals;
 
 import data_access.ProfileException;
 import entity.CommonUser;
-import entity.User;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.junit.Test;

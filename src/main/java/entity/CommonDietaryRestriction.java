@@ -6,23 +6,14 @@ import java.util.List;
  * Represents dietary restrictions selected by the user.
  */
 public class CommonDietaryRestriction implements DietaryRestriction {
-    private final List<String> diets;
+    private final List<String> dietaryRestrictions;
 
-    /**
-     * Constructs a CommonDietaryRestriction with the specified list of diets.
-     *
-     * @param diets the list of diets (e.g., Vegetarian, Vegan)
-     */
-    public CommonDietaryRestriction(List<String> diets) {
-        this.diets = diets;
+    public CommonDietaryRestriction(List<String> dietaryRestrictions) {
+        this.dietaryRestrictions = dietaryRestrictions;
     }
 
-    /**
-     * Retrieves the list of diets.
-     *
-     * @return the list of diets
-     */
-    public List<String> getDiets() {
-        return diets;
+    public List<String> getDietaryRestrictions() {
+        return dietaryRestrictions;
     }
+
 }
