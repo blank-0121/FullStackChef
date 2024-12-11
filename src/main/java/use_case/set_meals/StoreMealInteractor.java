@@ -1,12 +1,12 @@
 package use_case.set_meals;
 
-import data_access.Constants;
-import data_access.UserProfile.ProfileException;
+import app.Constants;
+import data_access.ProfileException;
 import entity.User;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import util.UserToJSON;
+import data_access.UserToJSON;
 
 import java.util.List;
 import java.util.Map;

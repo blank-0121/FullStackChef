@@ -1,6 +1,6 @@
 package view;
 
-import data_access.Constants;
+import app.Constants;
 import interface_adapter.display_favorites.DisplayFavoriteController;
 import interface_adapter.display_history.DisplayHistoryController;
 import interface_adapter.display_recipe.DisplayRecipeController;

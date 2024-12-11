@@ -1,14 +1,12 @@
-package data_access.UserProfile;
+package data_access;
 
-import data_access.Constants;
+import app.Constants;
 import entity.*;
 import okhttp3.*;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import use_case.login.LoginUserDataAccessInterface;
 import use_case.set_meals.StoreMealDataAccessInterface;
-import use_case.signup.SignupUserDataAccessInterface;
 
 import java.io.IOException;
 import java.util.ArrayList;

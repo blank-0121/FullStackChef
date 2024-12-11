@@ -1,6 +1,6 @@
 package interface_adapter.mealplan.generate_mealplan;
 
-import data_access.Constants;
+import app.Constants;
 import interface_adapter.ViewModel;
 import use_case.mealplan.generate_mealplan.WeeklyMealRecipeDto;
 

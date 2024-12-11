@@ -1,12 +1,10 @@
 package use_case.grocery_list;
 
 import app.SessionUser;
-import data_access.grocery_list.GroceryListDataAccessObject;
-import data_access.grocery_list.GroceryListException;
-import data_access.grocery_list.GroceryListInMemoryDataAccessObject;
+import data_access.dietaryrestrictions.GroceryListException;
+import data_access.GroceryListInMemoryDataAccessObject;
 import entity.*;
 import interface_adapter.ViewManagerModel;
-import interface_adapter.ViewModel;
 import interface_adapter.grocery_list.GroceryListPresenter;
 import interface_adapter.grocery_list.GroceryListViewModel;
 import interface_adapter.search.SearchViewModel;
@@ -14,7 +12,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
-import app.SessionUser;
+
 import static org.junit.Assert.*;
 import entity.CommonUser;
 

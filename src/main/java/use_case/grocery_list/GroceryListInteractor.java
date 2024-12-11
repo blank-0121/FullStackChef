@@ -1,13 +1,10 @@
 package use_case.grocery_list;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import app.SessionUser;
-import data_access.grocery_list.GroceryListException;
-import entity.CommonIngredient;
+import data_access.dietaryrestrictions.GroceryListException;
 import entity.Ingredient;
-import entity.IngredientWithConvertedUnits;
 
 /**
  * The interactor for the Grocery List use case.

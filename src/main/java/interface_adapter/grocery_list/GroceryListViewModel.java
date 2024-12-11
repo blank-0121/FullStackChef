@@ -1,6 +1,6 @@
 package interface_adapter.grocery_list;
 
-import data_access.Constants;
+import app.Constants;
 import interface_adapter.ViewModel;
 
 /**

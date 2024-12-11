@@ -1,8 +1,7 @@
-package data_access.grocery_list;
+package data_access;
 
 import entity.CommonIngredientWithConvertedUnits;
 import entity.Ingredient;
-import entity.User;
 import use_case.grocery_list.GroceryListDataAccessInterface;
 
 import java.util.ArrayList;

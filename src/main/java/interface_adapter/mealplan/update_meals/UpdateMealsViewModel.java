@@ -1,6 +1,6 @@
 package interface_adapter.mealplan.update_meals;
 
-import data_access.Constants;
+import app.Constants;
 import interface_adapter.ViewModel;
 
 

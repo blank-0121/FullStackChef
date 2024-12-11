@@ -1,12 +1,12 @@
-package data_access.grocery_list;
+package data_access;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import app.SessionUser;
-import data_access.Constants;
+import app.Constants;
+import data_access.dietaryrestrictions.GroceryListException;
 import entity.*;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;

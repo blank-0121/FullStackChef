@@ -68,7 +68,7 @@ in src\main\java\data_access\Constants.java called API_KEY is not used up.
    - Click on the recipe panel to view detailed instructions and ingredients needed.
      
    
-     ![Search GIF](src/images/Search.gif)
+   ![Search GIF](src/images/Search.gif)
      
 **For the following use cases**, you can navigate to their buttons by hovering over the profile
    button in the top right corner.

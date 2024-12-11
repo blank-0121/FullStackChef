@@ -1,14 +1,12 @@
 package view;
 
-import data_access.Constants;
-import interface_adapter.ViewManagerModel;
+import app.Constants;
 //import interface_adapter.ViewManagerState;
 import interface_adapter.grocery_list.GroceryListController;
 import interface_adapter.grocery_list.GroceryListState;
 import interface_adapter.grocery_list.GroceryListViewModel;
 
 import javax.swing.*;
-import java.awt.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.util.ArrayList;

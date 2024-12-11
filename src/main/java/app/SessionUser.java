@@ -10,7 +10,6 @@ public class SessionUser {
     private User user;
 
     private SessionUser() {
-
     }
 
     public static SessionUser getInstance() {

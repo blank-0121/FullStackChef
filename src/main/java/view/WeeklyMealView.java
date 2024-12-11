@@ -1,15 +1,10 @@
 package view;
 
-import app.SessionUser;
-import data_access.Constants;
-import entity.User;
-import interface_adapter.ViewManagerModel;
-import interface_adapter.change_password.ChangePasswordController;
+import app.Constants;
 import interface_adapter.grocery_list.GroceryListController;
 import interface_adapter.mealplan.generate_mealplan.WeeklyMealController;
 import interface_adapter.mealplan.generate_mealplan.WeeklyMealState;
 import interface_adapter.mealplan.generate_mealplan.WeeklyMealViewModel;
-import interface_adapter.mealplan.update_meals.UpdateMealsController;
 import interface_adapter.mealplan.update_meals.UpdateMealsState;
 import interface_adapter.mealplan.update_meals.UpdateMealsViewModel;
 import use_case.mealplan.generate_mealplan.WeeklyMealRecipeDto;
@@ -19,9 +14,7 @@ import java.awt.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.time.LocalDate;
-import java.time.ZoneId;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
 

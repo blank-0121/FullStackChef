@@ -1,7 +1,6 @@
-package util;
+package data_access;
 
-import data_access.Constants;
-import data_access.UserProfile.ProfileException;
+import app.Constants;
 import entity.DietaryRestriction;
 import entity.Favorite;
 import entity.User;

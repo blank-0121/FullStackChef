@@ -1,6 +1,6 @@
 package view;
 
-import data_access.Constants;
+import app.Constants;
 import entity.Recipe;
 import interface_adapter.check_favorite.CheckFavoriteController;
 import interface_adapter.display_recipe.DisplayRecipeController;
