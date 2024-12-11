@@ -35,7 +35,7 @@ FullStackChef solves the problem of inefficient meal planning by:
 ### Individual User Stories
 - **Generate Meal Plan** (by Jasmine Jasmine): Generates a weekly meal plan.
 - **Grocery List** (by Tadd Mao): Generate a grocery shopping list based on the meal plan.
-- **Favorites** (by Shaojie Chung): Save your favorite recipes for quick access.
+- **Favorites** (by Blank): Save your favorite recipes for quick access.
 - **History** (by Jasmine Willy Saphira): Track your previously viewed recipes.
 - **Display Recipe** (by Mousa Samer El-sururi): View detailed recipe instructions and ingredients.
 
