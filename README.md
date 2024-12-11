@@ -3,7 +3,7 @@
 ## Authors
 - Jasmine Jasmine
 - Tadd Mao
-- Shaojie Chung
+- Blank
 - Jasmine Willy Saphira
 - Mousa Samer El-sururi
 
